@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wishlist"
+version = "0.1.0"
+description = "This app builds a games wishlist across multiple platforms"
+authors = ["Alec Sherwood <aasherwood@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^1.1.2"
+boto3 = "^1.13.22"
+requests = "^2.23.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
